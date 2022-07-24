@@ -23,7 +23,7 @@ namespace WhoIsThisPokemon
             var rnd = new Random();
             var index = rnd.Next(0, PokeIds.Count - 1);
             var response = PokeIds[index];
-            PokeIds.RemoveAt(index);
+            //PokeIds.RemoveAt(index);
             return response;
         }
         public Pokemon GetNextPokemon()
