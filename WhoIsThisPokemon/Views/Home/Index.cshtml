@@ -1,0 +1,9 @@
+﻿@model PokeApiNet.Pokemon;
+@{
+    ViewData["Title"] = "Pokemon Aleatorio";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@Model.Name</h1>
+    <img src="@Model.Sprites.Other.OfficialArtwork.FrontDefault" />
+</div>
