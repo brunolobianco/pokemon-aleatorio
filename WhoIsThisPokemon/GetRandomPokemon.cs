@@ -13,7 +13,7 @@ namespace WhoIsThisPokemon
         {
             PreviousPokemon = new List<Pokemon>();
             PokeIds = new List<int>();
-            for(var i = 1; i <= 150; i++)
+            for(var i = 1; i <= 151; i++)
             {
                 this.PokeIds.Add(i);
             }
